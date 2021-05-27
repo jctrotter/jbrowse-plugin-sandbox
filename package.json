@@ -43,13 +43,16 @@
       "<rootDir>/cypress/"
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "@jbrowse/plugin-alignments": "^1.1.0",
+    "@jbrowse/plugin-linear-genome-view": "^1.1.0"
+  },
   "peerDependencies": {
     "@jbrowse/core": "^1.0.4"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.10.4",
-    "@jbrowse/cli": "^1.0.3",
+    "@jbrowse/cli": "^1.1.0",
     "@jbrowse/core": "^1.0.4",
     "@jbrowse/development-tools": "^1.0.3",
     "@material-ui/core": "^4.9.13",
